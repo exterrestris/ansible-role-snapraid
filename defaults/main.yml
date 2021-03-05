@@ -21,6 +21,7 @@ snapraid_config_hidden_files_enabled: false
 snapraid_config_hidden_files: nohidden
 snapraid_config_path: /etc/snapraid.conf
 
+snapraid_run_repo: https://github.com/Chronial/snapraid-runner.git
 snapraid_run_path: /opt/snapraid-runner/snapraid-runner
 snapraid_run_conf: "{{ snapraid_run_path }}.conf"
 snapraid_run_bin: "{{ snapraid_run_path }}.py"
